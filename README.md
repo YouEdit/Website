@@ -43,3 +43,7 @@ Netlify Formsを使用します。初回デプロイ後にNetlify > Forms でフ
 正式URLは `https://youedit.jp` に設定済みです。独自ドメインのDNSとHTTPSが有効になった後、Google Search Consoleでサイトマップを送信してください。
 
 ※ YouEditの既存プロジェクトで設定されているドメインはNetlify側に残ります。GitHubにコードを登録するだけではNetlifyとの連携は完了しません。
+
+## 公開設定変更後のデプロイ
+
+Netlify の無料プランで非公開リポジトリの投稿者制限によるビルド失敗が発生し、リポジトリを Public に変更した場合は、新しいコミットをプッシュしてNetlifyに変更を通知します。Netlify の Deploys 画面で最新ビルド結果を確認してください。
